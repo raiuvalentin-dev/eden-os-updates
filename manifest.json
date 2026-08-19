@@ -1,0 +1,70 @@
+{
+  "os_name": "EDEN OS",
+  "firmware": "1.0.0",
+  "build": "2026-08-19",
+  "app_version": "1.4.0",
+  "apps": [
+    {
+      "id": "core",
+      "version": "1.4.0"
+    },
+    {
+      "id": "auth",
+      "version": "1.4.0"
+    },
+    {
+      "id": "console",
+      "version": "1.1.0"
+    },
+    {
+      "id": "osupdate",
+      "version": "1.0.0"
+    },
+    {
+      "id": "brain",
+      "version": "2.0.0"
+    },
+    {
+      "id": "pontaj",
+      "version": "1.0.0"
+    },
+    {
+      "id": "comenzi",
+      "version": "1.0.0"
+    },
+    {
+      "id": "rezervari",
+      "version": "1.0.0"
+    },
+    {
+      "id": "meniu",
+      "version": "1.0.0"
+    },
+    {
+      "id": "crm",
+      "version": "1.0.0"
+    },
+    {
+      "id": "inbox",
+      "version": "1.0.0"
+    },
+    {
+      "id": "kpi",
+      "version": "1.0.0"
+    },
+    {
+      "id": "agenti",
+      "version": "1.0.0"
+    }
+  ],
+  "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
+  "notes": [
+    "EDEN OS Update — centru de actualizari ca Windows Update: versiune firmware + aplicatii, verificare automata si upgrade cu un click",
+    "Self-update DIRECT, fara cPanel: serverul descarca pachetul de pe canal si se instaleaza singur (cu backup automat)",
+    "Cod master (recuperare) + resetare parola din consola sau din login",
+    "Consola de Update (admin.html): publici versiuni direct din browser",
+    "Autentificare: Google + Facebook + WhatsApp OTP + Google Authenticator (2FA), optionale",
+    "Logo 3D consecvent; favicon 3D; indicator SSL cu 3 stari; brand book aplicat integral",
+    "PWA instalabil + offline"
+  ]
+}
