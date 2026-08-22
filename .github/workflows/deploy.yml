@@ -1,0 +1,29 @@
+# Auto-deploy Universul HoReCa pe server (cPanel/FTP) la fiecare update din repo.
+name: Deploy Universul HoReCa
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Dezarhiveaza pachetul
+        run: |
+          mkdir -p dist
+          unzip -o eden-app.zip -d dist
+          ls -la dist
+      - name: Urca pe server prin FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.FTP_DIR }}
+          exclude: |
+            **/data/**
+            **/.git*
+            **/README.md
