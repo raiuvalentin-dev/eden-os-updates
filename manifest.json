@@ -1,12 +1,12 @@
 {
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
-  "build": "2026-08-19",
-  "app_version": "1.4.0",
+  "build": "2026-08-21",
+  "app_version": "1.5.0",
   "apps": [
     {
       "id": "core",
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
     {
       "id": "auth",
@@ -55,16 +55,20 @@
     {
       "id": "agenti",
       "version": "1.0.0"
+    },
+    {
+      "id": "site",
+      "version": "1.0.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "EDEN OS Update — centru de actualizari ca Windows Update: versiune firmware + aplicatii, verificare automata si upgrade cu un click",
-    "Self-update DIRECT, fara cPanel: serverul descarca pachetul de pe canal si se instaleaza singur (cu backup automat)",
-    "Cod master (recuperare) + resetare parola din consola sau din login",
-    "Consola de Update (admin.html): publici versiuni direct din browser",
-    "Autentificare: Google + Facebook + WhatsApp OTP + Google Authenticator (2FA), optionale",
-    "Logo 3D consecvent; favicon 3D; indicator SSL cu 3 stari; brand book aplicat integral",
-    "PWA instalabil + offline"
+    "Home page „Aplicațiile mele\" ca ecran principal la intrare (ecosistem, agenți, App Store, KPI), în structura cu dock plutitor",
+    "Aplicații ascunse implicit + Bibliotecă de aplicații: activezi ce vrei să folosești, restul rămân ascunse",
+    "Dock plutitor cu glow și mișcare, iconițe minimaliste, „new\" ca punct discret",
+    "Dock simplificat: o singură listă cu scroll, punct verde pentru aplicațiile deschise (fără dublare), 100% customizabil",
+    "Brand „Universul HoReCa\" în interfață (login, header, dashboard, chat)",
+    "Optimizări mobile: fără suprapunere header/butoane, text complet, layout adaptat",
+    "EDEN OS Update — centru de actualizari; self-update direct fara cPanel; cod master; consola admin; auth Google/Facebook/WhatsApp/2FA; PWA offline"
   ]
 }
