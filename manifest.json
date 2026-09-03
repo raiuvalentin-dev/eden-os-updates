@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-09-03",
-  "app_version": "1.9.0",
+  "app_version": "1.9.1",
   "apps": [
     {
       "id": "core",
@@ -62,11 +62,12 @@
     },
     {
       "id": "magazie",
-      "version": "1.1.0"
+      "version": "1.1.1"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
+    "Corectie sincronizare Magazie: bucla de sync nu mai suprascrie datele scrise local (evenimentele si documentele noi ramaneau pierdute dupa ~15 secunde)",
     "Magazie & Baruri v1.1.0 - nomenclator real SW38: 64 pozitii cu pret de achizitie fara TVA din facturi, pret Regular, pret VIP si pret pe sticla la mesele VIP",
     "Receptia marfii in magazia de la Roquetas se incarca cu un clic (62 pozitii, 65.887 EUR la achizitie)",
     "Tip nou de document: Vanzare la masa (sticla) - scade din barul VIP si se valorizeaza la pretul de masa",
