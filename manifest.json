@@ -1,12 +1,12 @@
 {
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
-  "build": "2026-08-21",
-  "app_version": "1.5.0",
+  "build": "2026-09-03",
+  "app_version": "1.8.0",
   "apps": [
     {
       "id": "core",
-      "version": "1.5.0"
+      "version": "1.6.0"
     },
     {
       "id": "auth",
@@ -59,16 +59,18 @@
     {
       "id": "site",
       "version": "1.0.0"
+    },
+    {
+      "id": "magazie",
+      "version": "1.0.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Home page „Aplicațiile mele\" ca ecran principal la intrare (ecosistem, agenți, App Store, KPI), în structura cu dock plutitor",
-    "Aplicații ascunse implicit + Bibliotecă de aplicații: activezi ce vrei să folosești, restul rămân ascunse",
-    "Dock plutitor cu glow și mișcare, iconițe minimaliste, „new\" ca punct discret",
-    "Dock simplificat: o singură listă cu scroll, punct verde pentru aplicațiile deschise (fără dublare), 100% customizabil",
-    "Brand „Universul HoReCa\" în interfață (login, header, dashboard, chat)",
-    "Optimizări mobile: fără suprapunere header/butoane, text complet, layout adaptat",
-    "EDEN OS Update — centru de actualizari; self-update direct fara cPanel; cod master; consola admin; auth Google/Facebook/WhatsApp/2FA; PWA offline"
+    "Aplicație nouă „Magazie & Baruri” (v1.0.0): magazie centrală, ieșiri către baruri cu fișă de magazie semnată digital (predat / primit), transferuri între baruri, retur la final de eveniment",
+    "Prețuri duble pe produs — Regular și VIP; barul e marcat VIP sau Regular și ia automat lista corectă; valoarea = cantitate × porții/UM × preț (1 L tărie = 25 porții)",
+    "Inventar pe bar la un moment dat, cu diferență față de scriptic și ajustare automată; raport de vânzări între două inventare",
+    "Personal & ture: grilă de ture de 12h pe baruri, cu barmani și responsabili",
+    "Interfață bilingvă RO/ES, sincronizare pe server prin state.php, acces doar cu sesiune EDEN"
   ]
 }
