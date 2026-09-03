@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-09-03",
-  "app_version": "1.8.0",
+  "app_version": "1.9.0",
   "apps": [
     {
       "id": "core",
@@ -62,15 +62,15 @@
     },
     {
       "id": "magazie",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Aplicație nouă „Magazie & Baruri” (v1.0.0): magazie centrală, ieșiri către baruri cu fișă de magazie semnată digital (predat / primit), transferuri între baruri, retur la final de eveniment",
-    "Prețuri duble pe produs — Regular și VIP; barul e marcat VIP sau Regular și ia automat lista corectă; valoarea = cantitate × porții/UM × preț (1 L tărie = 25 porții)",
-    "Inventar pe bar la un moment dat, cu diferență față de scriptic și ajustare automată; raport de vânzări între două inventare",
-    "Personal & ture: grilă de ture de 12h pe baruri, cu barmani și responsabili",
-    "Interfață bilingvă RO/ES, sincronizare pe server prin state.php, acces doar cu sesiune EDEN"
+    "Magazie & Baruri v1.1.0 - nomenclator real SW38: 64 pozitii cu pret de achizitie fara TVA din facturi, pret Regular, pret VIP si pret pe sticla la mesele VIP",
+    "Receptia marfii in magazia de la Roquetas se incarca cu un clic (62 pozitii, 65.887 EUR la achizitie)",
+    "Tip nou de document: Vanzare la masa (sticla) - scade din barul VIP si se valorizeaza la pretul de masa",
+    "Marja pe produs si pe eveniment: valoare achizitie vs valoare la pret de vanzare, pe magazie si pe fiecare bar",
+    "Fisa de magazie semnata digital, transferuri intre baruri, retur in magazie, inventar cu ajustare, raport de vanzari intre doua inventare"
   ]
 }
