@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-12",
-  "app_version": "1.13.0",
+  "app_version": "1.14.0",
   "apps": [
     {
       "id": "core",
@@ -70,16 +70,15 @@
     },
     {
       "id": "verificator",
-      "version": "1.2.0"
+      "version": "1.3.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Verificator eveniment v1.2.0: reparata sincronizarea - modulul nu mai retrimite starea comuna la fiecare 15 secunde si nu mai redeseneaza pagina sub mana",
-    "Salvarea citeste intai starea de pe server si schimba doar ramura verificator; celelalte module raman cum erau pe server",
-    "Tema Centralizatorului: aceleasi culori, fonturi si forme, zi/noapte din aceeasi setare (uh_theme)",
-    "Meniul raspunde si fara eveniment: fiecare ecran spune ce arata; eveniment de exemplu incarcabil dintr-un buton",
-    "Moneda evenimentului (lei / euro), preluata din Magazie & Baruri",
-    "Modulul se incarca mereu din retea si se actualizeaza singur cand apare o versiune noua"
+    "Verificator eveniment v1.3.0: mai multe societati pe acelasi eveniment (asociati); fiecare bar e operat de o societate",
+    "Centralizator, rapoarte si export Excel pe societate: numerar, card, total, numerar predat si settlement pentru fiecare asociat",
+    "Evenimentul inchis se poate redeschide de un administrator, cu nume si motiv scrise pe eveniment",
+    "Evenimentele, inclusiv cele inchise, se pot sterge direct din lista de evenimente",
+    "La eveniment nou se alege societatea care opereaza barurile; operatorii din Autorizari devin societati"
   ]
 }
