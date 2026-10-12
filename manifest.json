@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-12",
-  "app_version": "1.10.0",
+  "app_version": "1.11.0",
   "apps": [
     {
       "id": "core",
@@ -67,14 +67,19 @@
     {
       "id": "autorizari",
       "version": "0.9.0"
+    },
+    {
+      "id": "verificator",
+      "version": "1.0.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Modul nou: Autorizari eveniment v0.9.0 (beta) - completezi o singura data datele evenimentului si aplicatia intocmeste dosarele pentru ISU, DSV, DSP, ANPC, Mediu si Politie, fiecare cu opis de documente si necesar",
-    "Verificari automate intre dosare: capacitate fata de iesiri si fluxuri de evacuare, densitate pe zone, distante intre corturi, grupuri sanitare, stingatoare, termene de depunere",
-    "Export Word pe document, arhiva completa pe eveniment si termene pentru calendar",
-    "Legaturi cu Magazie & Baruri (preia barurile evenimentului) si cu datele comune EDEN (capacitate, termene, stadiul dosarelor)",
-    "Tema EDEN zi / noapte in modulul Autorizari"
+    "Modul nou: Verificator eveniment v1.0.0 - rapoarte Z, settlement si registru de casa pe eveniment, cu patru verificari automate (card fata de settlement, numerar fata de predat, sold fata de numarat, documente lipsa)",
+    "Eveniment nou cu baruri, barmani, casieri, case de marcat si POS bancare pe fiecare bar; casele si terminalele se creeaza si se leaga singure, cu verificarea fiscala a configurarii",
+    "Legatura cu Autorizari eveniment: evenimentul se preia cu numele, zilele si barurile lui",
+    "Rapoarte si KPI pe fiecare bar: vanzari, pondere, bon mediu, vanzari pe barman, bonuri pe casier, tranzactii si anulari card, diferente, fonduri, plati; export Excel",
+    "Import settlement din fisierul bancii (CSV sau Excel), explicatii cu nume la fiecare diferenta, inchidere de zi si de eveniment",
+    "Date comune EDEN: se sincronizeaza intre dispozitive si se imbina rand cu rand cand lucreaza doi oameni in acelasi timp; tema EDEN zi / noapte"
   ]
 }
