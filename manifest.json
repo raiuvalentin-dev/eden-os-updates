@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-12",
-  "app_version": "1.12.0",
+  "app_version": "1.13.0",
   "apps": [
     {
       "id": "core",
@@ -70,15 +70,16 @@
     },
     {
       "id": "verificator",
-      "version": "1.1.0"
+      "version": "1.2.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Verificator eveniment v1.1.0: ecran nou Marfa si vanzare, legat de Magazie & Baruri",
-    "Pe fiecare bar: intrat din magazie + primit prin transfer - dat prin transfer - retur in magazie = vandut, la pretul de vanzare al barului, comparat cu vanzarea din zeturi",
-    "Circuitul marfii pe produs si fisele de transfer ale fiecarui bar (iesiri, transferuri intre baruri, retur, vanzare la masa), cu cine a predat si cine a primit",
-    "Toleranta la diferenta reglabila pe eveniment; verificarea a cincea si KPI de marfa in rapoarte; foaie noua in exportul Excel",
-    "Evenimentul nou se poate prelua si din Magazie & Baruri, cu barurile si responsabilii lor"
+    "Verificator eveniment v1.2.0: reparata sincronizarea - modulul nu mai retrimite starea comuna la fiecare 15 secunde si nu mai redeseneaza pagina sub mana",
+    "Salvarea citeste intai starea de pe server si schimba doar ramura verificator; celelalte module raman cum erau pe server",
+    "Tema Centralizatorului: aceleasi culori, fonturi si forme, zi/noapte din aceeasi setare (uh_theme)",
+    "Meniul raspunde si fara eveniment: fiecare ecran spune ce arata; eveniment de exemplu incarcabil dintr-un buton",
+    "Moneda evenimentului (lei / euro), preluata din Magazie & Baruri",
+    "Modulul se incarca mereu din retea si se actualizeaza singur cand apare o versiune noua"
   ]
 }
