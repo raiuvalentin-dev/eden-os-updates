@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-12",
-  "app_version": "1.11.0",
+  "app_version": "1.12.0",
   "apps": [
     {
       "id": "core",
@@ -70,16 +70,15 @@
     },
     {
       "id": "verificator",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Modul nou: Verificator eveniment v1.0.0 - rapoarte Z, settlement si registru de casa pe eveniment, cu patru verificari automate (card fata de settlement, numerar fata de predat, sold fata de numarat, documente lipsa)",
-    "Eveniment nou cu baruri, barmani, casieri, case de marcat si POS bancare pe fiecare bar; casele si terminalele se creeaza si se leaga singure, cu verificarea fiscala a configurarii",
-    "Legatura cu Autorizari eveniment: evenimentul se preia cu numele, zilele si barurile lui",
-    "Rapoarte si KPI pe fiecare bar: vanzari, pondere, bon mediu, vanzari pe barman, bonuri pe casier, tranzactii si anulari card, diferente, fonduri, plati; export Excel",
-    "Import settlement din fisierul bancii (CSV sau Excel), explicatii cu nume la fiecare diferenta, inchidere de zi si de eveniment",
-    "Date comune EDEN: se sincronizeaza intre dispozitive si se imbina rand cu rand cand lucreaza doi oameni in acelasi timp; tema EDEN zi / noapte"
+    "Verificator eveniment v1.1.0: ecran nou Marfa si vanzare, legat de Magazie & Baruri",
+    "Pe fiecare bar: intrat din magazie + primit prin transfer - dat prin transfer - retur in magazie = vandut, la pretul de vanzare al barului, comparat cu vanzarea din zeturi",
+    "Circuitul marfii pe produs si fisele de transfer ale fiecarui bar (iesiri, transferuri intre baruri, retur, vanzare la masa), cu cine a predat si cine a primit",
+    "Toleranta la diferenta reglabila pe eveniment; verificarea a cincea si KPI de marfa in rapoarte; foaie noua in exportul Excel",
+    "Evenimentul nou se poate prelua si din Magazie & Baruri, cu barurile si responsabilii lor"
   ]
 }
