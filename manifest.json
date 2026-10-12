@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-12",
-  "app_version": "1.15.0",
+  "app_version": "1.16.0",
   "apps": [
     {
       "id": "core",
@@ -70,15 +70,15 @@
     },
     {
       "id": "verificator",
-      "version": "1.4.0"
+      "version": "1.5.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Verificator eveniment v1.4.0: ecran nou Personal si salarii, cu salariati permanenti si zilieri",
-    "Stat de plata pe eveniment dupa modelul din SAGA: brut din salariul de incadrare si orele lucrate, CAS, sanatate, impozit, net, CAM",
-    "Registru de zilieri: se incarca direct exportul Excel de la Inspectia Muncii (fara CNP), cu CAS si impozit calculate",
-    "Costul cu personalul pe fiecare bar si pe societate, fata de vanzarea din zeturi",
-    "Export Excel: stat permanenti, registru zilieri, cost pe baruri; ecranul e doar pentru administratori"
+    "Verificator eveniment v1.5.0: zona de Personal cu trei ecrane - Program si baruri, Salarii, Dosare (HR, SSM, PSI)",
+    "Dosar automat pentru fiecare om: ce a semnat la angajare, instruirile SSM si PSI, sanatatea, cu data, numar, valabilitate si legatura catre hartie",
+    "Program si baruri: cine unde lucreaza pe fiecare zi, cu functia, tura si orele; barmani si casieri fata de cat s-a cerut la configurare",
+    "Un document se poate bifa pentru mai multi oameni deodata; registrul de zilieri completeaza singur dosarele",
+    "Export: situatia dosarelor, tabele nominale de instruire SSM si PSI, programul pe baruri"
   ]
 }
