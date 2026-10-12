@@ -2,11 +2,11 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-12",
-  "app_version": "1.16.0",
+  "app_version": "1.17.0",
   "apps": [
     {
       "id": "core",
-      "version": "1.6.1"
+      "version": "1.6.2"
     },
     {
       "id": "auth",
@@ -66,7 +66,7 @@
     },
     {
       "id": "autorizari",
-      "version": "0.9.0"
+      "version": "0.11.0"
     },
     {
       "id": "verificator",
@@ -75,10 +75,11 @@
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Verificator eveniment v1.5.0: zona de Personal cu trei ecrane - Program si baruri, Salarii, Dosare (HR, SSM, PSI)",
-    "Dosar automat pentru fiecare om: ce a semnat la angajare, instruirile SSM si PSI, sanatatea, cu data, numar, valabilitate si legatura catre hartie",
-    "Program si baruri: cine unde lucreaza pe fiecare zi, cu functia, tura si orele; barmani si casieri fata de cat s-a cerut la configurare",
-    "Un document se poate bifa pentru mai multi oameni deodata; registrul de zilieri completeaza singur dosarele",
-    "Export: situatia dosarelor, tabele nominale de instruire SSM si PSI, programul pe baruri"
+    "Autorizari eveniment v0.11.0 (beta): evenimentele se adauga, se modifica, se copiaza si se sterg din lista „Evenimente”; cele sterse raman la „Sterse” si pot fi restaurate",
+    "Evenimentele stau pe server, pe companii; accesul este cel din login-ul EDEN: contul owner vede tot, celelalte conturi vad numai companiile la care au primit drept (vede / modifica / administreaza)",
+    "Ecran nou „Companii si acces” pentru contul owner: firmele organizatoare cu datele lor si drepturile fiecarui cont pe fiecare companie",
+    "Arhiva de documente pe eveniment (planse, dosare, procese-verbale, contracte, facturi), cu import de dosar dintr-o arhiva .zip direct din lista de evenimente; financiar pe eveniment (contracte, facturi, scadente)",
+    "Preluare a documentelor trimise pe adresa de e-mail pentru autorizari (dupa ce casuta este creata si legata de aplicatie); mesajele fara codul evenimentului raman la „Neatribuite”",
+    "Siguranta: datele complete ale evenimentelor nu mai trec prin starea comuna EDEN"
   ]
 }
