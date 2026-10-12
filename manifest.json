@@ -1,8 +1,8 @@
 {
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
-  "build": "2026-10-12",
-  "app_version": "1.18.0",
+  "build": "2026-10-13",
+  "app_version": "1.19.0",
   "apps": [
     {
       "id": "core",
@@ -70,13 +70,13 @@
     },
     {
       "id": "verificator",
-      "version": "1.5.0"
+      "version": "1.6.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Reparatie: raspunsurile serverului (.php) nu mai sunt pastrate in memoria aplicatiei instalate - listele de evenimente, companii si documente sunt mereu cele de pe server",
-    "Autorizari eveniment v0.11.1: pagina se incarca mereu in ultima versiune cand esti online",
-    "Autorizari eveniment v0.11 (din 1.17.0): evenimente pe companii, acces dupa conturile EDEN, arhiva de documente si financiar pe eveniment"
+    "Verificator eveniment v1.6: documentele de angajare se genereaza singure, gata completate - cerere, informare prealabila, contract (model-cadru), fisa postului cu anexa SSM si PSI, fise de instruire, pentru salariati; informare si declaratie pentru zilieri",
+    "Pe eveniment: fisa de instruire colectiva SSM si PSI cu tabel nominal, informare zilieri, tabel EIP, proces-verbal de instruire pe locatie, decizia lucratorului desemnat, lista documentelor necesare",
+    "Datele societatii (sediu, registrul comertului, reprezentant) se trec o data, in Configurare; CNP-ul si actul de identitate intra doar in documentul generat si nu se pastreaza in aplicatie"
   ]
 }
