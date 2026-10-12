@@ -1,12 +1,12 @@
 {
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
-  "build": "2026-09-03",
-  "app_version": "1.9.1",
+  "build": "2026-10-12",
+  "app_version": "1.10.0",
   "apps": [
     {
       "id": "core",
-      "version": "1.6.0"
+      "version": "1.6.1"
     },
     {
       "id": "auth",
@@ -63,15 +63,18 @@
     {
       "id": "magazie",
       "version": "1.1.1"
+    },
+    {
+      "id": "autorizari",
+      "version": "0.9.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Corectie sincronizare Magazie: bucla de sync nu mai suprascrie datele scrise local (evenimentele si documentele noi ramaneau pierdute dupa ~15 secunde)",
-    "Magazie & Baruri v1.1.0 - nomenclator real SW38: 64 pozitii cu pret de achizitie fara TVA din facturi, pret Regular, pret VIP si pret pe sticla la mesele VIP",
-    "Receptia marfii in magazia de la Roquetas se incarca cu un clic (62 pozitii, 65.887 EUR la achizitie)",
-    "Tip nou de document: Vanzare la masa (sticla) - scade din barul VIP si se valorizeaza la pretul de masa",
-    "Marja pe produs si pe eveniment: valoare achizitie vs valoare la pret de vanzare, pe magazie si pe fiecare bar",
-    "Fisa de magazie semnata digital, transferuri intre baruri, retur in magazie, inventar cu ajustare, raport de vanzari intre doua inventare"
+    "Modul nou: Autorizari eveniment v0.9.0 (beta) - completezi o singura data datele evenimentului si aplicatia intocmeste dosarele pentru ISU, DSV, DSP, ANPC, Mediu si Politie, fiecare cu opis de documente si necesar",
+    "Verificari automate intre dosare: capacitate fata de iesiri si fluxuri de evacuare, densitate pe zone, distante intre corturi, grupuri sanitare, stingatoare, termene de depunere",
+    "Export Word pe document, arhiva completa pe eveniment si termene pentru calendar",
+    "Legaturi cu Magazie & Baruri (preia barurile evenimentului) si cu datele comune EDEN (capacitate, termene, stadiul dosarelor)",
+    "Tema EDEN zi / noapte in modulul Autorizari"
   ]
 }
