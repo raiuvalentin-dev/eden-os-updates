@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-13",
-  "app_version": "1.19.0",
+  "app_version": "1.20.0",
   "apps": [
     {
       "id": "core",
@@ -70,13 +70,13 @@
     },
     {
       "id": "verificator",
-      "version": "1.6.0"
+      "version": "1.7.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Verificator eveniment v1.6: documentele de angajare se genereaza singure, gata completate - cerere, informare prealabila, contract (model-cadru), fisa postului cu anexa SSM si PSI, fise de instruire, pentru salariati; informare si declaratie pentru zilieri",
-    "Pe eveniment: fisa de instruire colectiva SSM si PSI cu tabel nominal, informare zilieri, tabel EIP, proces-verbal de instruire pe locatie, decizia lucratorului desemnat, lista documentelor necesare",
-    "Datele societatii (sediu, registrul comertului, reprezentant) se trec o data, in Configurare; CNP-ul si actul de identitate intra doar in documentul generat si nu se pastreaza in aplicatie"
+    "Verificator eveniment v1.7: pe raportul Z, numerarul se scrie pe doua campuri - Numerar Z (cel de pe bon) si Numerar B (incasat peste cel din Z)",
+    "Numerarul B are coloana lui in Centralizator, pe case, baruri, societati si zile; o bifa hotaraste daca se aduna sau nu in totaluri",
+    "Registrul de casa asteapta la predare numerarul Z plus numerarul B; raport separat pe numerarul B, pe fiecare Z"
   ]
 }
