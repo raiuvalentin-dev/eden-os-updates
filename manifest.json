@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-13",
-  "app_version": "1.20.0",
+  "app_version": "1.21.0",
   "apps": [
     {
       "id": "core",
@@ -70,13 +70,13 @@
     },
     {
       "id": "verificator",
-      "version": "1.7.0"
+      "version": "1.8.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Verificator eveniment v1.7: pe raportul Z, numerarul se scrie pe doua campuri - Numerar Z (cel de pe bon) si Numerar B (incasat peste cel din Z)",
-    "Numerarul B are coloana lui in Centralizator, pe case, baruri, societati si zile; o bifa hotaraste daca se aduna sau nu in totaluri",
-    "Registrul de casa asteapta la predare numerarul Z plus numerarul B; raport separat pe numerarul B, pe fiecare Z"
+    "Verificator eveniment v1.8: pe raportul Z, casierul se alege din oamenii evenimentului (intai casierii, apoi restul echipei)",
+    "Rapoarte: incasarile pe casier - zeturi, numerar, card, total, bonuri, cat a predat in registru si diferenta",
+    "Foaia 'Pe casier' intra in raportul descarcat"
   ]
 }
