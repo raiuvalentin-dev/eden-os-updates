@@ -1,8 +1,8 @@
 {
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
-  "build": "2026-10-13",
-  "app_version": "1.23.0",
+  "build": "2026-10-14",
+  "app_version": "1.24.0",
   "apps": [
     {
       "id": "core",
@@ -70,13 +70,13 @@
     },
     {
       "id": "verificator",
-      "version": "1.10.0"
+      "version": "1.11.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Verificator eveniment v1.10: pe raportul Z, 'numerar B' devine Nota informativa (numerar gasit peste Z, se aduna) si apare Nota explicativa (bon emis gresit, se scade, din numerar sau din card)",
-    "Valoarea reala = Z - nota explicativa + nota informativa, aratata in totaluri cu bifa; registrul de casa numara mereu banii fizici",
-    "Fiecare nota se tipareste din lista de zeturi, gata de semnat de casier si de responsabilul barului; raportul notelor pe fiecare Z"
+    "Verificator eveniment v1.11: nota explicativa poate scadea (bon emis gresit) sau aduna (incasat, dar nebatut) din Z-ul cu probleme",
+    "Buton separat 'Situatia reala', in bara de sus, in Centralizator si in Rapoarte: totalurile includ notele explicative si informative",
+    "Nota explicativa tiparita are text diferit pentru suma scazuta si pentru suma adaugata"
   ]
 }
