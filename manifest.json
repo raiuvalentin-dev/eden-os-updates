@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-14",
-  "app_version": "1.25.0",
+  "app_version": "1.26.0",
   "apps": [
     {
       "id": "core",
@@ -70,16 +70,16 @@
     },
     {
       "id": "verificator",
-      "version": "1.12.0"
+      "version": "1.13.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
+    "Verificator eveniment v1.13: fluturasi de semnat pe WhatsApp: fiecare om primeste un link al lui, vede doar fluturasul lui (zilierii: randul lor din statul de plata), semneaza cu degetul, iar linkul se blocheaza",
+    "In Salarii: telefonul fiecarui om, starea semnarii (trimis / semnat) si documentul semnat, cu semnatura, data, ora si amprenta",
+    "Pagina noua semnare.html si backend semnare.php (pe server ramane doar amprenta codului din link)",
     "Verificator eveniment v1.12: oricate note explicative pe acelasi Z, fiecare cu suma, numerar sau card, se scade sau se aduna, motiv si angajat",
     "Raportul notelor are cate un rand pe fiecare nota; incasarile pe casier trec fiecare nota la angajatul ei",
-    "Fiecare nota explicativa se tipareste separat, semnata de angajatul ei",
-    "Consola de update: actualizarea din browser scrie fisierele si pe serverul nou, in loc de 0 fisiere",
-    "Consola arata ce fisier nu s-a putut scrie si de ce",
-    "Verificator eveniment v1.11: nota explicativa poate scadea (bon emis gresit) sau aduna (incasat, dar nebatut) din Z-ul cu probleme"
+    "Fiecare nota explicativa se tipareste separat, semnata de angajatul ei"
   ]
 }
