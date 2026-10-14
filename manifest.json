@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-10-14",
-  "app_version": "1.24.0",
+  "app_version": "1.24.1",
   "apps": [
     {
       "id": "core",
@@ -14,7 +14,7 @@
     },
     {
       "id": "console",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "id": "osupdate",
@@ -75,6 +75,8 @@
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
+    "Consola de update: actualizarea din browser scrie fisierele si pe serverul nou, in loc de 0 fisiere",
+    "Consola arata ce fisier nu s-a putut scrie si de ce",
     "Verificator eveniment v1.11: nota explicativa poate scadea (bon emis gresit) sau aduna (incasat, dar nebatut) din Z-ul cu probleme",
     "Buton separat 'Situatia reala', in bara de sus, in Centralizator si in Rapoarte: totalurile includ notele explicative si informative",
     "Nota explicativa tiparita are text diferit pentru suma scazuta si pentru suma adaugata"
