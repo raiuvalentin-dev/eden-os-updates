@@ -1,8 +1,8 @@
 {
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
-  "build": "2026-10-30",
-  "app_version": "1.27.0",
+  "build": "2026-11-03",
+  "app_version": "1.28.0",
   "apps": [
     {
       "id": "core",
@@ -71,15 +71,17 @@
     {
       "id": "verificator",
       "version": "1.13.0"
+    },
+    {
+      "id": "ievent",
+      "version": "1.0.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "Autorizari v0.12: locatii permanente (club, bar, restaurant, sala de evenimente) pe langa evenimente: profil locatie, 38 de dosare pe institutii adaptate dupa tip si localitate (ONRC, ANAF, ISU, DSVSA, DSP, APM, primarie, UCMR/UPFR/CREDIDAM, ITM, ANPC, GDPR, utilitati)",
-    "Formular de date per firma; cereri, declaratii, decizii, memorii si opisuri generate automat in Word; ZIP cu toate dosarele; opis CSV; alerte de blocaj (cote de proprietate, contract care expira, punct de lucru ONRC, risc seismic, ISU)",
-    "Exemplu incarcabil: Club Kristal (BUZZBAR EVENTS)",
-    "Verificator eveniment v1.13: fluturasi de semnat pe WhatsApp: fiecare om primeste un link al lui, vede doar fluturasul lui (zilierii: randul lor din statul de plata), semneaza cu degetul, iar linkul se blocheaza",
-    "In Salarii: telefonul fiecarui om, starea semnarii (trimis / semnat) si documentul semnat, cu semnatura, data, ora si amprenta",
-    "Pagina noua semnare.html si backend semnare.php (pe server ramane doar amprenta codului din link)"
+    "iEvent v1.0: aplicatie noua de productie evenimente  sarcini cu responsabil, status si deadline, checklist, program, necesar grupat pe tip si responsabil, cazare, documente grupate pe tip si expeditor, jurnal",
+    "iEvent: mai multe evenimente; un eveniment nou porneste din sablon (sarcinile, checklist-ul si necesarul se copiaza, cu deadline-urile mutate dupa noua data)",
+    "iEvent: echipa intra cu utilizator si parola EDEN; invitatii prin link, contul devine activ doar dupa aprobarea managementului; roluri Management si Angajat",
+    "iEvent: notificari in aplicatie si pe dispozitiv; import de date din fisier"
   ]
 }
