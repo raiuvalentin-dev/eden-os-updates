@@ -2,7 +2,7 @@
   "os_name": "EDEN OS",
   "firmware": "1.0.0",
   "build": "2026-11-03",
-  "app_version": "1.28.0",
+  "app_version": "1.28.1",
   "apps": [
     {
       "id": "core",
@@ -10,7 +10,7 @@
     },
     {
       "id": "auth",
-      "version": "1.4.0"
+      "version": "1.4.1"
     },
     {
       "id": "console",
@@ -74,14 +74,13 @@
     },
     {
       "id": "ievent",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ],
   "package_url": "https://raw.githubusercontent.com/raiuvalentin-dev/eden-os-updates/main/eden-app.zip",
   "notes": [
-    "iEvent v1.0: aplicatie noua de productie evenimente  sarcini cu responsabil, status si deadline, checklist, program, necesar grupat pe tip si responsabil, cazare, documente grupate pe tip si expeditor, jurnal",
-    "iEvent: mai multe evenimente; un eveniment nou porneste din sablon (sarcinile, checklist-ul si necesarul se copiaza, cu deadline-urile mutate dupa noua data)",
-    "iEvent: echipa intra cu utilizator si parola EDEN; invitatii prin link, contul devine activ doar dupa aprobarea managementului; roluri Management si Angajat",
-    "iEvent: notificari in aplicatie si pe dispozitiv; import de date din fisier"
+    "iEvent v1.1: optimizat pentru telefon - meniu jos cu Sarcini, Checklist, Necesar, Documente si Meniu; necesarul si documentele apar ca fise usor de citit; sarcinile se vad una sub alta",
+    "iEvent: campurile nu mai fac zoom pe iPhone, butoanele si bifele sunt mai mari, iar aplicatia tine cont de marginile telefonului",
+    "Login EDEN: lista de conturi se modifica acum sub acelasi lacat cu iEvent - nu se mai poate pierde un cont aprobat sau o parola schimbata in acelasi moment"
   ]
 }
